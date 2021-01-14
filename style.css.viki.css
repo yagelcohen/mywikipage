@@ -1,5 +1,5 @@
 body{
-    background-color: #f4f4f4;
+    background-color:slategray;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #555555;
@@ -18,11 +18,15 @@ body{
     margin-top: 0;
     margin-bottom:0;
     padding: 30px;
+    text-align:center; 
+
+
 }
 #navbar{
     background-color: #333333;
     color: gainsboro;
     padding: 10px;
+    float: initial;
 }
 #navbar ul{
     list-style: none;
@@ -38,17 +42,45 @@ body{
     font-size: 20px;
     padding-right: 30px;
 }
-#welcome-h2{
-    background-image: url(https://lp-cms-production.imgix.net/image_browser/surf-break-beach-shutterstockRF_647759590.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850);
-    background-position: center right;
-    background-repeat: no-repeat;
+#welcome{
+    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/Vd3bj2jPe/silhouette-of-man-on-surfing-board-at-sea-at-sunset-sunset-sea-sun-reflection-at-sea-sunset-sky-over-sea-sea-sunset-with-calm-water-clouds-sky-over-sea-at-sunset-tranquil-water-of-sunset-sea_sgkxcapbl_thumbnail-1080_01.png);
+    background-position: bottom left;
+    /* background-repeat: no-repeat; */
     min-height:400px;
     min-width: 300px;
     margin-bottom: 30px;
-    text-align: center;    
-    color: #333333;
+    text-align:center;
+    color:  gainsboro;
     font-size: 40px;
     line-height: 1.6em;
-    padding-top: 40px;
-    
+    padding-top: 80px;
+    margin-top: 0;
+    font-weight:500;
+}
+#img1{
+    float: left;
+    box-sizing: border-box;
+    width:50%;
+    height: 600px;
+}
+#img2{
+    float: right;
+    width: 50%;
+    height: 600px;
+    box-sizing: border-box;
+}
+#section-3{
+    float: left;
+    box-sizing: border-box;
+    width:60%;
+    /* text-align: center; */
+    color: lavenderblush;
+    padding:0 200px;
+    background-color:slategray;
+}
+#section-4{
+    float: right;;
+    box-sizing: border-box;
+    width:40%;
+    color: lavenderblush;
 }
