@@ -1,0 +1,54 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #555555;
+    margin: 0;
+    /* inline-size: 500px; */
+    line-height:1.6em;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color:cadetblue;
+    color: beige;
+    margin-top: 0;
+    margin-bottom:0;
+    padding: 30px;
+}
+#navbar{
+    background-color: #333333;
+    color: gainsboro;
+    padding: 10px;
+}
+#navbar ul{
+    list-style: none;
+    padding: 0;
+}
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: ghostwhite;
+    text-decoration:none;
+    font-size: 20px;
+    padding-right: 30px;
+}
+#welcome-h2{
+    background-image: url(https://lp-cms-production.imgix.net/image_browser/surf-break-beach-shutterstockRF_647759590.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850);
+    background-position: center right;
+    background-repeat: no-repeat;
+    min-height:400px;
+    min-width: 300px;
+    margin-bottom: 30px;
+    text-align: center;    
+    color: #333333;
+    font-size: 40px;
+    line-height: 1.6em;
+    padding-top: 40px;
+    
+}
