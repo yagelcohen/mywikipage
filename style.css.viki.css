@@ -28,6 +28,7 @@ body{
     padding: 10px;
     float:center;
     position: fixed;
+    width:79%;
 }
 #navbar ul{
     list-style: none;
@@ -42,6 +43,9 @@ body{
     text-decoration:none;
     font-size: 20px;
     padding-right: 30px;
+}
+#navbar a:hover{
+    color: black;
 }
 #welcome{
     background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/Vd3bj2jPe/silhouette-of-man-on-surfing-board-at-sea-at-sunset-sunset-sea-sun-reflection-at-sea-sunset-sky-over-sea-sea-sunset-with-calm-water-clouds-sky-over-sea-at-sunset-tranquil-water-of-sunset-sea_sgkxcapbl_thumbnail-1080_01.png);
@@ -69,12 +73,12 @@ body{
     height: 600px;
     box-sizing: border-box;
 }
-/* #images{
+#images{
     margin-top:none;
     padding-bottom:none;
     padding-top: 0;
 
-} */
+}
 #section-3{
     float: right;
     box-sizing: border-box;
@@ -100,14 +104,20 @@ body{
     color: lavenderblush;
     text-decoration:none;
 }
+#menu a:hover{
+    color: black;
+}
 #Contact{
 font-size: 18px;
 color: mintcream;
 box-sizing: border-box;
 }
 #Contact a{
-color:black;
+color:mintcream;
 text-decoration:none;
+}
+#Contact a:hover{
+    color: black;
 }
 #footer{
     font-size: 18px;
