@@ -7,6 +7,11 @@ body{
     /* inline-size: 500px; */
     line-height:1.6em;
 }
+@media  (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
 .container{
     width: 80%;
     margin: auto;
@@ -111,6 +116,7 @@ body{
 font-size: 18px;
 color: mintcream;
 box-sizing: border-box;
+line-height:2.5em;
 }
 #Contact a{
 color:mintcream;
@@ -128,9 +134,25 @@ text-decoration:none;
 #tips h2{
     color: black;
 }
+#tips p::first-letter{
+   font-size: 20px;
+}
+
 #surfbord{
     color:blanchedalmond ;
 }
 #surfbord h2 {
     color: black;
+}
+.keep-in-touch{
+    widows:50px;
+    height:40px;
+}
+.mediaa{
+    width:33%;
+    height:350px;
+}
+.mediaaa{
+    width:33%;
+    height:350px;
 }
