@@ -118,6 +118,14 @@ color: mintcream;
 box-sizing: border-box;
 line-height:2.5em;
 }
+/* #Contact ul{
+    list-style: none;
+    padding: 0;
+}
+#Contact li{
+    display:inline;
+    padding: 50px;
+}  */
 #Contact a{
 color:mintcream;
 text-decoration:none;
@@ -126,7 +134,7 @@ text-decoration:none;
     color: black;
 }
 #footer{
-    font-size: 18px;
+    font-size: 20px;
 }
 #tips{
     color: blanchedalmond;
