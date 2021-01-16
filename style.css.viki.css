@@ -144,6 +144,9 @@ text-decoration:none;
 #surfbord h2 {
     color: black;
 }
+#surfbord p::first-letter{
+    font-size: 20px;
+}
 .keep-in-touch{
     widows:50px;
     height:40px;
